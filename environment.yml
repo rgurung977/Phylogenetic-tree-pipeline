@@ -1,0 +1,13 @@
+name: phylogenetic-pipeline
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - python=3.9
+  - biopython
+  - mafft
+  - matplotlib
+  - seaborn
+  - pandas
+  - scipy
+  - jupyter
