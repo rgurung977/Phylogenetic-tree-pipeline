@@ -1,0 +1,21 @@
+ram-gurung@ram-gurung-Vostro-15-3510:~/Documents/bioinformatics_cadd/week 1$ # Create main directory and navigate into it
+mkdir -p 1abe-phylogenetic-workflow
+cd 1abe-phylogenetic-workflow
+
+# Create all directories
+mkdir -p {data/{raw,processed,output/figures},src,config,scripts,tests/test_data,docs,examples/sample_output/figures,docker,setup,logs/{errors,success,archive}} 
+
+# Create root level files
+touch README.md LICENSE requirements.txt environment.yml .gitignore
+
+# Create setup files
+touch setup/{install_dependencies.sh,install_dependencies.bat,check_environment.py}
+
+# Create src Python files
+touch src/{__init__.py,01_fetch_sequence.py,02_run_blast.py,03_process_blast.py,04_alignment.py,05_tree_building.py,06_chimera_visualization.py,07_full_pipeline.py,utils.py}
+
+# Create config YAML files
+# Check results in data/output/.shnd visualize in Chimera.E gene sequence, run B
+> 
+> ^C
+
